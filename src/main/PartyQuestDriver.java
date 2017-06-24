@@ -9,7 +9,7 @@ public class PartyQuestDriver
 	{
 		Party ourParty = new Party("Fueders");
 		ourParty.add(new Hero("Knight  ", 150, 50));
-		ourParty.add(new Hero("Wizard  ", 50, 150));
+		ourParty.add(new Hero("Witch   ", 50, 150));
 		ourParty.add(new Hero("Princess", 100, 100));
 		System.out.println(ourParty);
 		Event event1 = new Event(100, 150);
